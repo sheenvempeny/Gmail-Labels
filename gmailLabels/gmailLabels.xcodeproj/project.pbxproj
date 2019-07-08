@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA46E5B2259792F000F3BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA46E5A2259792F000F3BD4 /* AppDelegate.swift */; };
+		CCA46E5D2259792F000F3BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA46E5C2259792F000F3BD4 /* ViewController.swift */; };
+		CCA46E602259792F000F3BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA46E5E2259792F000F3BD4 /* Main.storyboard */; };
+		CCA46E6222597930000F3BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA46E6122597930000F3BD4 /* Assets.xcassets */; };
+		CCA46E6522597930000F3BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA46E6322597930000F3BD4 /* LaunchScreen.storyboard */; };
+		CCA46E712259A619000F3BD4 /* LabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA46E702259A619000F3BD4 /* LabelsViewController.swift */; };
+		CCA46E752259ACD2000F3BD4 /* GoogleAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA46E742259ACD2000F3BD4 /* GoogleAuthenticator.swift */; };
+		CCA46E772259AE0C000F3BD4 /* GmailServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA46E762259AE0C000F3BD4 /* GmailServiceHelper.swift */; };
+		E860C7E4B3651B5C265F94AB /* Pods_gmailLabels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C564BBE73EEC7499403656D /* Pods_gmailLabels.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01852ADCFB1AF77B0A2C9DC9 /* Pods-gmailLabels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gmailLabels.release.xcconfig"; path = "Target Support Files/Pods-gmailLabels/Pods-gmailLabels.release.xcconfig"; sourceTree = "<group>"; };
+		6C564BBE73EEC7499403656D /* Pods_gmailLabels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gmailLabels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840784BCEFBE9126F1DF81FE /* Pods-gmailLabels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gmailLabels.debug.xcconfig"; path = "Target Support Files/Pods-gmailLabels/Pods-gmailLabels.debug.xcconfig"; sourceTree = "<group>"; };
+		CCA46E572259792F000F3BD4 /* gmailLabels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gmailLabels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA46E5A2259792F000F3BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCA46E5C2259792F000F3BD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCA46E5F2259792F000F3BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCA46E6122597930000F3BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCA46E6422597930000F3BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCA46E6622597930000F3BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA46E702259A619000F3BD4 /* LabelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsViewController.swift; sourceTree = "<group>"; };
+		CCA46E742259ACD2000F3BD4 /* GoogleAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticator.swift; sourceTree = "<group>"; };
+		CCA46E762259AE0C000F3BD4 /* GmailServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailServiceHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA46E542259792F000F3BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E860C7E4B3651B5C265F94AB /* Pods_gmailLabels.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC89AEE96A43F3E1828585C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C564BBE73EEC7499403656D /* Pods_gmailLabels.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36031B0F2F43A1DF566C56D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				840784BCEFBE9126F1DF81FE /* Pods-gmailLabels.debug.xcconfig */,
+				01852ADCFB1AF77B0A2C9DC9 /* Pods-gmailLabels.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CCA46E4E2259792F000F3BD4 = {
+			isa = PBXGroup;
+			children = (
+				CCA46E592259792F000F3BD4 /* gmailLabels */,
+				CCA46E582259792F000F3BD4 /* Products */,
+				36031B0F2F43A1DF566C56D5 /* Pods */,
+				1CC89AEE96A43F3E1828585C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA46E582259792F000F3BD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA46E572259792F000F3BD4 /* gmailLabels.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA46E592259792F000F3BD4 /* gmailLabels */ = {
+			isa = PBXGroup;
+			children = (
+				CCA46E5A2259792F000F3BD4 /* AppDelegate.swift */,
+				CCA46E5C2259792F000F3BD4 /* ViewController.swift */,
+				CCA46E742259ACD2000F3BD4 /* GoogleAuthenticator.swift */,
+				CCA46E762259AE0C000F3BD4 /* GmailServiceHelper.swift */,
+				CCA46E5E2259792F000F3BD4 /* Main.storyboard */,
+				CCA46E702259A619000F3BD4 /* LabelsViewController.swift */,
+				CCA46E6122597930000F3BD4 /* Assets.xcassets */,
+				CCA46E6322597930000F3BD4 /* LaunchScreen.storyboard */,
+				CCA46E6622597930000F3BD4 /* Info.plist */,
+			);
+			path = gmailLabels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA46E562259792F000F3BD4 /* gmailLabels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA46E6922597930000F3BD4 /* Build configuration list for PBXNativeTarget "gmailLabels" */;
+			buildPhases = (
+				F270C6DD080A1E58C0D1E084 /* [CP] Check Pods Manifest.lock */,
+				CCA46E532259792F000F3BD4 /* Sources */,
+				CCA46E542259792F000F3BD4 /* Frameworks */,
+				CCA46E552259792F000F3BD4 /* Resources */,
+				8E134890D62B19A2A472E623 /* [CP] Embed Pods Frameworks */,
+				2F518FAC1D01549F70BC194F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gmailLabels;
+			productName = gmailLabels;
+			productReference = CCA46E572259792F000F3BD4 /* gmailLabels.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA46E4F2259792F000F3BD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "sheen vempeny";
+				TargetAttributes = {
+					CCA46E562259792F000F3BD4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = CCA46E522259792F000F3BD4 /* Build configuration list for PBXProject "gmailLabels" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA46E4E2259792F000F3BD4;
+			productRefGroup = CCA46E582259792F000F3BD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA46E562259792F000F3BD4 /* gmailLabels */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA46E552259792F000F3BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA46E6522597930000F3BD4 /* LaunchScreen.storyboard in Resources */,
+				CCA46E6222597930000F3BD4 /* Assets.xcassets in Resources */,
+				CCA46E602259792F000F3BD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F518FAC1D01549F70BC194F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gmailLabels/Pods-gmailLabels-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gmailLabels/Pods-gmailLabels-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E134890D62B19A2A472E623 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gmailLabels/Pods-gmailLabels-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gmailLabels/Pods-gmailLabels-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F270C6DD080A1E58C0D1E084 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gmailLabels-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA46E532259792F000F3BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA46E772259AE0C000F3BD4 /* GmailServiceHelper.swift in Sources */,
+				CCA46E752259ACD2000F3BD4 /* GoogleAuthenticator.swift in Sources */,
+				CCA46E712259A619000F3BD4 /* LabelsViewController.swift in Sources */,
+				CCA46E5D2259792F000F3BD4 /* ViewController.swift in Sources */,
+				CCA46E5B2259792F000F3BD4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCA46E5E2259792F000F3BD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA46E5F2259792F000F3BD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA46E6322597930000F3BD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA46E6422597930000F3BD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA46E6722597930000F3BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCA46E6822597930000F3BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA46E6A22597930000F3BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 840784BCEFBE9126F1DF81FE /* Pods-gmailLabels.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6B4U83Q88;
+				INFOPLIST_FILE = gmailLabels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sheen.gmailLabels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCA46E6B22597930000F3BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01852ADCFB1AF77B0A2C9DC9 /* Pods-gmailLabels.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6B4U83Q88;
+				INFOPLIST_FILE = gmailLabels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sheen.gmailLabels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA46E522259792F000F3BD4 /* Build configuration list for PBXProject "gmailLabels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA46E6722597930000F3BD4 /* Debug */,
+				CCA46E6822597930000F3BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA46E6922597930000F3BD4 /* Build configuration list for PBXNativeTarget "gmailLabels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA46E6A22597930000F3BD4 /* Debug */,
+				CCA46E6B22597930000F3BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA46E4F2259792F000F3BD4 /* Project object */;
+}
