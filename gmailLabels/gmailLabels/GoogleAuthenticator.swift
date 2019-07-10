@@ -12,7 +12,7 @@ import GoogleSignIn
 class GoogleAuthenticator: NSObject {
     
     static let sharedInstance = GoogleAuthenticator()
-    var googleUser: GIDGoogleUser?
+    private var googleUser: GIDGoogleUser?
     
     private override init(){
         super.init()
