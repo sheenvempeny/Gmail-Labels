@@ -18,7 +18,7 @@ class GoogleAuthenticator: NSObject {
         super.init()
         let scope = "https://www.googleapis.com/auth/gmail.labels";
         GIDSignIn.sharedInstance().scopes.append(scope)
-        GIDSignIn.sharedInstance().clientID = "240384018005-s557g6rreq3snh3330fsmb0bt47hp3m5.apps.googleusercontent.com"
+        GIDSignIn.sharedInstance().clientID = "clientID"
         GIDSignIn.sharedInstance().delegate = self
     }
 }
